@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = '现代计算机图形学导论'
-copyright = '2021, 北京大学可视计算与学习实验室'
+copyright = '2021'
 author = '北京大学可视计算与学习实验室'
 
 # The full version, including alpha/beta/rc tags
@@ -30,8 +30,7 @@ release = '0.1'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = ["sphinx_multitoc_numbering"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -60,3 +59,7 @@ html_theme = 'sphinx_book_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_title = "现代计算机图形学导论"
+
+html_last_updated_fmt = ''

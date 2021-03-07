@@ -3,11 +3,13 @@
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
 
    introduction
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    :caption: 专题一：简单图形绘制
 
    drawing/display
@@ -18,6 +20,7 @@
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    :caption: 专题二：几何表示
 
    geometry/usage
@@ -30,6 +33,7 @@
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    :caption: 专题三：三维物体渲染
 
    rendering/pipeline
@@ -43,6 +47,7 @@
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    :caption: 专题四：动画生成
 
    animation/principle
