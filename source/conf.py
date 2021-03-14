@@ -30,7 +30,7 @@ release = '0.1'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["sphinx_multitoc_numbering", "sphinx_proof", "myst_parser"]
+extensions = ["sphinx_multitoc_numbering", "sphinx_proof", "myst_parser", "sphinxcontrib.bibtex"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -63,3 +63,5 @@ html_static_path = ['_static']
 html_title = "现代计算机图形学导论"
 
 html_last_updated_fmt = ''
+
+bibtex_bibfiles = ['refs.bib']

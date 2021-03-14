@@ -20,9 +20,9 @@
 Given $y \in \mathbb R^n$ and linear subspace $S \subset \mathbb R^n$,
 there exists a unique solution to the minimization problem
 
-```{math}
-\hat y := \argmin_{z \in S} \|y - z\|
-```
+$$
+\hat y := \mathop{\arg\min}_{z \in S} \|y - z\|
+$$
 
 The minimizer $\hat y$ is the unique vector in $\mathbb R^n$ that satisfies
 
@@ -33,3 +33,7 @@ The minimizer $\hat y$ is the unique vector in $\mathbb R^n$ that satisfies
 
 The vector $\hat y$ is called the **orthogonal projection** of $y$ onto $S$.
 ````
+
+测试引用功能：{cite}`economic-dynamics-book`
+
+测试中 English 混排
