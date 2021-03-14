@@ -1,3 +1,5 @@
 sphinx
 sphinx-book-theme
 sphinx-multitoc-numbering
+sphinx-proof
+myst-parser
