@@ -10,30 +10,8 @@
 
 对光学有了解的读者一定知道：太阳光透过棱镜可以折射出赤橙黄绿青蓝紫的连续色谱，而这正是彩虹形成的原理。这一条简单的常识至少向我们透露了下列两条信息：
 
+```{prf:observation}
 1. 不同波长的光线具有不同的颜色；
 
-2. 一种颜色（例如阳光的“白色”）可能是由多种颜色组合而成的。
-
-````{prf:theorem} Orthogonal-Projection-Theorem
-:label: my-theorem
-
-Given $y \in \mathbb R^n$ and linear subspace $S \subset \mathbb R^n$,
-there exists a unique solution to the minimization problem
-
-$$
-\hat y := \mathop{\arg\min}_{z \in S} \|y - z\|
-$$
-
-The minimizer $\hat y$ is the unique vector in $\mathbb R^n$ that satisfies
-
-* $\hat y \in S$
-
-* $y - \hat y \perp S$
-
-
-The vector $\hat y$ is called the **orthogonal projection** of $y$ onto $S$.
-````
-
-测试引用功能：{cite}`economic-dynamics-book`
-
-测试中 English 混排
+2. 一种颜色的光线（例如“白色”的阳光）可能是由多种不同颜色的光线组合而成的。
+```
