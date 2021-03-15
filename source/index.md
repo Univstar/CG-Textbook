@@ -12,8 +12,8 @@ introduction
 :numbered:
 :caption: 专题一：简单图形绘制
 
-drawing/display
 drawing/vectors
+drawing/display
 drawing/rasterization
 drawing/sampling
 drawing/anti-aliasing
