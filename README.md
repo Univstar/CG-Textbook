@@ -135,4 +135,4 @@ MyST 插件使 Markdown 支持插入带编号的图片：
 
 `sphinxcontrib-bibtex` 插件使 sphinx 支持 bibliography 风格的文献引用。
 
-首先在 `source/refs.bib` 中维护参考文献，随后在文档中使用 `` {cite}`feynman-lectures-1` ``进行引用。
+首先在 `source/refs.bib` 中维护参考文献，随后在文档中使用 `` {cite}`文献标签` ``进行引用。
