@@ -2,7 +2,7 @@
 
 本项目由北京大学可视计算与学习实验室筹划。
 
-在线阅读地址：<https://cg-textbook.readthedocs.io/>
+在线阅读地址：<https://cg-textbook.readthedocs.io>
 
 ## 快速入门
 
@@ -54,7 +54,7 @@ sphinx-autobuild -a source build/html
 
 - [MyST](https://myst-parser.readthedocs.io)
 - [sphinx-proof](https://sphinx-proof.readthedocs.io)
-- [sphinxcontrib-bibtex](https://sphinxcontrib-bibtex.readthedocs.io/)
+- [sphinxcontrib-bibtex](https://sphinxcontrib-bibtex.readthedocs.io)
 
 ### 插入公式
 
